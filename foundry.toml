@@ -5,7 +5,12 @@ libs = ["lib"]
 
 remappings = [
   "@openzeppelin=lib/openzepplin-contracts/",
-  "@chainlink=lib/chainlink-brownie-contracts/"
-  ]
+  "@chainlink=lib/chainlink-brownie-contracts/",
+]
+
+[invariant]
+runs = 100
+depth = 100
+fail_on_revert = false
 
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
