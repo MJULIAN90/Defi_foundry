@@ -9,4 +9,4 @@ i_solmate:; forge install transmissions11/solmate
 
 i_foundry_dev:; forge install Cyfrin/foundry-devops
 
-i_openzeppelin:; forge install openzepplin/openzepplin-contracts
+i_openzeppelin:; forge install openzeppelin/openzeppelin-contracts
